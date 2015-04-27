@@ -1,0 +1,63 @@
+Source: purpose
+Section: libs
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules,
+               intltool,
+               kaccounts-integration,
+               libaccounts-glib-dev,
+               libaccounts-qt5-dev,
+               libkaccounts-dev,
+               libkf5coreaddons-dev,
+               libkf5declarative-dev,
+               libkf5kcmutils-dev,
+               libkf5wallet-dev,
+               libsignon-qt5-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qtbase5-dev
+Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/playground/libs/purpose
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/purpose.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/purpose.git
+
+Package: libkf5purpose-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5purpose5 (= ${binary:Version}), ${misc:Depends}
+Description: library for abstractions to get the developer's purposes fulfilled
+ Framework for providing abstractions to get the developer's purposes fulfilled.
+ .
+ Contains development files for Purpose.
+
+Package: libkf5purpose5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
+Description: library for abstractions to get the developer's purposes fulfilled
+ Framework for providing abstractions to get the developer's purposes fulfilled.
+ .
+ Contains development files for Purpose.
+
+Package: qml-modules-org-kde-purpose
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for abstractions to get the developer's purposes fulfilled
+ Framework for providing abstractions to get the developer's purposes fulfilled.
+ .
+ Contains the Qt Quick QML bindings for Purpose.
+
+Package: libkf5purpose5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: same
+Depends: libkf5purpose5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for Purpose
+ Framework for providing abstractions to get the developer's purposes fulfilled.
+ .
+ Contains debug symbols for Purpose.
