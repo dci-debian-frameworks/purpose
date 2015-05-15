@@ -34,7 +34,6 @@ Description: library for abstractions to get the developer's purposes fulfilled
 
 Package: libkf5purpose5
 Architecture: any
-Multi-Arch: same
 Depends: kde-telepathy-send-file,
          kdeconnect-plasma,
          ${misc:Depends},
