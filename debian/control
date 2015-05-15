@@ -40,7 +40,16 @@ Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
- Contains development files for Purpose.
+ Does not contain development files for Purpose.
+
+Package: libkf5purposewidgets5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library for abstractions to get the developer's purposes fulfilled
+ Framework for providing abstractions to get the developer's purposes fulfilled.
+ .
+ Does not contain development files for Purpose.
 
 Package: qml-modules-org-kde-purpose
 Architecture: any
