@@ -35,7 +35,10 @@ Description: library for abstractions to get the developer's purposes fulfilled
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: kde-telepathy-send-file,
+         kdeconnect-plasma,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
