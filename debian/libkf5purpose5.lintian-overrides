@@ -1,0 +1,2 @@
+libkf5purpose5: dev-pkg-without-shlib-symlink usr/lib/x86_64-linux-gnu/libReviewboardHelpers.so usr/lib/x86_64-linux-gnu/libReviewboardHelpers.so
+libkf5purpose5: shlib-without-versioned-soname usr/lib/x86_64-linux-gnu/libReviewboardHelpers.so libReviewboardHelpers.so
