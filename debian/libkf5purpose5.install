@@ -1,9 +1,7 @@
 usr/lib/*/libKF5Purpose.so.5
 usr/lib/*/libKF5Purpose.so.5.*
-usr/lib/*/qt5/plugins/purpose/
+usr/lib/*/libReviewboardHelpers.so
+usr/lib/*/qt5/plugins/purpose/*
 usr/share/accounts/services/google-youtube.service
-usr/share/icons/hicolor/*/actions/kipiplugin_youtube.png
-usr/share/purpose/kdeconnectplugin_config.qml
-usr/share/purpose/saveasplugin_config.qml
-usr/share/purpose/types/ExportPluginType.json
-usr/share/purpose/youtubeplugin_config.qml
+usr/share/icons/hicolor/*
+usr/share/purpose/*
