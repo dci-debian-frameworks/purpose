@@ -45,7 +45,7 @@ Description: library for abstractions to get the developer's purposes fulfilled
 Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-ubuntu-onlineaccounts, ${misc:Depends}, ${shlibs:Depends}
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
