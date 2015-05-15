@@ -1,0 +1,18 @@
+# SymbolsHelper-Confirmed: 5.9.0+git20150515 amd64
+libKF5PurposeWidgets.so.5 libkf5purposewidgets5 #MINVER#
+ _ZN7Purpose4Menu11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.9.0+git20150515
+ _ZN7Purpose4Menu11qt_metacastEPKc@Base 5.9.0+git20150515
+ _ZN7Purpose4Menu16staticMetaObjectE@Base 5.9.0+git20150515
+ _ZN7Purpose4Menu6reloadEv@Base 5.9.0+git20150515
+ _ZN7Purpose4Menu8finishedERK11QJsonObjectiRK7QString@Base 5.9.0+git20150515
+ _ZN7Purpose4MenuC1EP7QWidget@Base 5.9.0+git20150515
+ _ZN7Purpose4MenuC2EP7QWidget@Base 5.9.0+git20150515
+ _ZN7Purpose4MenuD0Ev@Base 5.9.0+git20150515
+ _ZN7Purpose4MenuD1Ev@Base 5.9.0+git20150515
+ _ZN7Purpose4MenuD2Ev@Base 5.9.0+git20150515
+ _ZNK7Purpose4Menu10metaObjectEv@Base 5.9.0+git20150515
+ _ZNK7Purpose4Menu5modelEv@Base 5.9.0+git20150515
+ _ZTIN7Purpose4MenuE@Base 5.9.0+git20150515
+ _ZTSN7Purpose4MenuE@Base 5.9.0+git20150515
+ _ZTVN7Purpose4MenuE@Base 5.9.0+git20150515
+ (c++)"non-virtual thunk to Purpose::Menu::~Menu()@Base" 5.9.0+git20150515
