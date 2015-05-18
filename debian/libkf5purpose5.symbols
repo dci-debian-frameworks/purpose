@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0+git20150515.1342 amd64 i386
+# SymbolsHelper-Confirmed: 5.9.0+git20150516.0223 amd64 i386
 imgurplugin.so libkf5purpose5 #MINVER#
  _ZN11ImgurPlugin11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.9.0+git20150515.1342
  _ZN11ImgurPlugin11qt_metacastEPKc@Base 5.9.0+git20150515.1342
@@ -53,15 +53,26 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose10PluginBaseD0Ev@Base 5.9.0
  _ZN7Purpose10PluginBaseD1Ev@Base 5.9.0
  _ZN7Purpose10PluginBaseD2Ev@Base 5.9.0
+ _ZN7Purpose13Configuration11dataChangedEv@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13Configuration11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13Configuration11qt_metacastEPKc@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13Configuration16staticMetaObjectE@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13Configuration7setDataERK11QJsonObject@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13Configuration9createJobEv@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13ConfigurationC1ERK11QJsonObjectS3_RK15KPluginMetaDataP7QObject@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13ConfigurationC2ERK11QJsonObjectS3_RK15KPluginMetaDataP7QObject@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13ConfigurationD0Ev@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13ConfigurationD1Ev@Base 5.9.0+git20150516.0223
+ _ZN7Purpose13ConfigurationD2Ev@Base 5.9.0+git20150516.0223
  _ZN7Purpose17AlternativesModel11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.9.0
  _ZN7Purpose17AlternativesModel11qt_metacastEPKc@Base 5.9.0
+ _ZN7Purpose17AlternativesModel12configureJobEi@Base 5.9.0+git20150516.0223
  _ZN7Purpose17AlternativesModel12setInputDataERK11QJsonObject@Base 5.9.0
  _ZN7Purpose17AlternativesModel13setPluginTypeERK7QString@Base 5.9.0
  _ZN7Purpose17AlternativesModel15initializeModelEv@Base 5.9.0
  _ZN7Purpose17AlternativesModel16inputDataChangedEv@Base 5.9.0
  _ZN7Purpose17AlternativesModel16staticMetaObjectE@Base 5.9.0
  _ZN7Purpose17AlternativesModel17pluginTypeChangedEv@Base 5.9.0
- _ZN7Purpose17AlternativesModel9createJobEi@Base 5.9.0
  _ZN7Purpose17AlternativesModelC1EP7QObject@Base 5.9.0
  _ZN7Purpose17AlternativesModelC2EP7QObject@Base 5.9.0
  _ZN7Purpose17AlternativesModelD0Ev@Base 5.9.0
@@ -71,8 +82,6 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose3Job11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.9.0
  _ZN7Purpose3Job11qt_metacastEPKc@Base 5.9.0
  _ZN7Purpose3Job16staticMetaObjectE@Base 5.9.0
- _ZN7Purpose3Job19setInboundArgumentsERK10QJsonValue@Base 5.9.0
- _ZN7Purpose3Job25setConfigurationArgumentsERK10QJsonValue@Base 5.9.0
  _ZN7Purpose3Job6outputERK11QJsonObject@Base 5.9.0
  _ZN7Purpose3Job7setDataERK11QJsonObject@Base 5.9.0
  _ZN7Purpose3JobC1EP7QObject@Base 5.9.0
@@ -81,6 +90,11 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose3JobD1Ev@Base 5.9.0
  _ZN7Purpose3JobD2Ev@Base 5.9.0
  _ZNK7Purpose10PluginBase10metaObjectEv@Base 5.9.0
+ _ZNK7Purpose13Configuration10metaObjectEv@Base 5.9.0+git20150516.0223
+ _ZNK7Purpose13Configuration15neededArgumentsEv@Base 5.9.0+git20150516.0223
+ _ZNK7Purpose13Configuration16configSourceCodeEv@Base 5.9.0+git20150516.0223
+ _ZNK7Purpose13Configuration4dataEv@Base 5.9.0+git20150516.0223
+ _ZNK7Purpose13Configuration7isReadyEv@Base 5.9.0+git20150516.0223
  _ZNK7Purpose17AlternativesModel10metaObjectEv@Base 5.9.0
  _ZNK7Purpose17AlternativesModel10pluginTypeEv@Base 5.9.0
  _ZNK7Purpose17AlternativesModel4dataERK11QModelIndexi@Base 5.9.0
@@ -88,16 +102,17 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZNK7Purpose17AlternativesModel9inputDataEv@Base 5.9.0
  _ZNK7Purpose17AlternativesModel9roleNamesEv@Base 5.9.0
  _ZNK7Purpose3Job10metaObjectEv@Base 5.9.0
- _ZNK7Purpose3Job15neededArgumentsEv@Base 5.9.0
  _ZNK7Purpose3Job4dataEv@Base 5.9.0
- _ZNK7Purpose3Job7isReadyEv@Base 5.9.0
  _ZTIN7Purpose10PluginBaseE@Base 5.9.0
+ _ZTIN7Purpose13ConfigurationE@Base 5.9.0+git20150516.0223
  _ZTIN7Purpose17AlternativesModelE@Base 5.9.0
  _ZTIN7Purpose3JobE@Base 5.9.0
  _ZTSN7Purpose10PluginBaseE@Base 5.9.0
+ _ZTSN7Purpose13ConfigurationE@Base 5.9.0+git20150516.0223
  _ZTSN7Purpose17AlternativesModelE@Base 5.9.0
  _ZTSN7Purpose3JobE@Base 5.9.0
  _ZTVN7Purpose10PluginBaseE@Base 5.9.0
+ _ZTVN7Purpose13ConfigurationE@Base 5.9.0+git20150516.0223
  _ZTVN7Purpose17AlternativesModelE@Base 5.9.0
  _ZTVN7Purpose3JobE@Base 5.9.0
 libReviewboardHelpers.so libkf5purpose5 #MINVER#
