@@ -26,7 +26,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/purpose.git
 Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5purpose5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5purpose5 (= ${binary:Version}),
+         libkf5purposewidgets5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
