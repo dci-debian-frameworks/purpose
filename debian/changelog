@@ -1,12 +1,5 @@
-purpose (5.9.0+git20150427-0ubuntu1) UNRELEASED; urgency=medium
+purpose (1.0~rc1-0ubuntu1) wily; urgency=medium
 
-  * Initial Package
+  * Package for Kubuntu 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 24 Apr 2015 16:46:30 +0200
-
-purpose (0.1~alpha-0ubuntu1~ubuntu15.10~ppa1) wily; urgency=medium
-
-  * PPA package
-  * Add CMAKE_CXX_FLAGS="-I/usr/include/accounts-qt5/" to fix build
-
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 May 2015 15:15:15 +0100
+ -- Clive Johnston <clivejo@aol.com>  Fri, 07 Aug 2015 22:28:47 +0100
