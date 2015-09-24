@@ -1,5 +1,6 @@
 purpose (1.0~rc1-0ubuntu1) wily; urgency=medium
 
-  * Package for Kubuntu 
+  * Package for Kubuntu
+  * Fix the watch file 
 
  -- Clive Johnston <clivejo@aol.com>  Fri, 07 Aug 2015 22:28:47 +0100
