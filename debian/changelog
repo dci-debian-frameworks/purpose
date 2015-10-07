@@ -1,3 +1,9 @@
+purpose (1.0+git20150907-0ubuntu1) wily; urgency=medium
+
+  * New upstream snapshot to fix overlapping files
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:53:29 +0100
+
 purpose (1.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
