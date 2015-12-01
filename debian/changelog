@@ -1,3 +1,9 @@
+purpose (1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Tue, 01 Dec 2015 19:24:36 +0000
+
 purpose (1.0+git20150907-0ubuntu1) wily; urgency=medium
 
   * New upstream snapshot to fix overlapping files
