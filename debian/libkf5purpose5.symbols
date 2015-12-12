@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.0~rc1 amd64
+# SymbolsHelper-Confirmed: 1.0 amd64 i386
 libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  (optional=templinst)_ZN14KPluginFactory6createI7QObjectEEPT_PS1_RK5QListI8QVariantE@Base 1.0~rc1
  _ZN7Purpose10PluginBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.0~rc1
@@ -13,10 +13,13 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose13Configuration11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.0~rc1
  _ZN7Purpose13Configuration11qt_metacastEPKc@Base 1.0~rc1
  _ZN7Purpose13Configuration16staticMetaObjectE@Base 1.0~rc1
+ _ZN7Purpose13Configuration21setUseSeparateProcessEb@Base 1.0
  _ZN7Purpose13Configuration7setDataERK11QJsonObject@Base 1.0~rc1
  _ZN7Purpose13Configuration9createJobEv@Base 1.0~rc1
- _ZN7Purpose13ConfigurationC1ERK11QJsonObjectS3_RK15KPluginMetaDataP7QObject@Base 1.0~rc1
- _ZN7Purpose13ConfigurationC2ERK11QJsonObjectS3_RK15KPluginMetaDataP7QObject@Base 1.0~rc1
+ _ZN7Purpose13ConfigurationC1ERK11QJsonObjectRK7QStringRK15KPluginMetaDataP7QObject@Base 1.0
+ _ZN7Purpose13ConfigurationC1ERK11QJsonObjectRK7QStringS3_RK15KPluginMetaDataP7QObject@Base 1.0
+ _ZN7Purpose13ConfigurationC2ERK11QJsonObjectRK7QStringRK15KPluginMetaDataP7QObject@Base 1.0
+ _ZN7Purpose13ConfigurationC2ERK11QJsonObjectRK7QStringS3_RK15KPluginMetaDataP7QObject@Base 1.0
  _ZN7Purpose13ConfigurationD0Ev@Base 1.0~rc1
  _ZN7Purpose13ConfigurationD1Ev@Base 1.0~rc1
  _ZN7Purpose13ConfigurationD2Ev@Base 1.0~rc1
@@ -37,9 +40,10 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose3Job11dataChangedEv@Base 1.0~rc1
  _ZN7Purpose3Job11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.0~rc1
  _ZN7Purpose3Job11qt_metacastEPKc@Base 1.0~rc1
+ _ZN7Purpose3Job13outputChangedERK11QJsonObject@Base 1.0
  _ZN7Purpose3Job16staticMetaObjectE@Base 1.0~rc1
- _ZN7Purpose3Job6outputERK11QJsonObject@Base 1.0~rc1
  _ZN7Purpose3Job7setDataERK11QJsonObject@Base 1.0~rc1
+ _ZN7Purpose3Job9setOutputERK11QJsonObject@Base 1.0
  _ZN7Purpose3JobC1EP7QObject@Base 1.0~rc1
  _ZN7Purpose3JobC2EP7QObject@Base 1.0~rc1
  _ZN7Purpose3JobD0Ev@Base 1.0~rc1
@@ -50,10 +54,13 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  (optional=templinst)_ZN7QObject7connectIM4KJobFvPS1_NS1_14QPrivateSignalEEPFvS2_EEEN9QtPrivate9QEnableIfIXgecvisrNS8_15FunctionPointerIT0_EE13ArgumentCountLi0EEN11QMetaObject10ConnectionEE4TypeEPKNSA_IT_E6ObjectESH_SB_@Base 1.0~rc1
  _ZN9QHashData8willGrowEv@Base 1.0~rc1
  _ZN9QHashData9firstNodeEv@Base 1.0~rc1
+ _ZNK10QByteArray4dataEv@Base 1.0
+ _ZNK10QByteArray7isEmptyEv@Base 1.0
  _ZNK7Purpose10PluginBase10metaObjectEv@Base 1.0~rc1
  _ZNK7Purpose13Configuration10metaObjectEv@Base 1.0~rc1
  _ZNK7Purpose13Configuration15neededArgumentsEv@Base 1.0~rc1
  _ZNK7Purpose13Configuration16configSourceCodeEv@Base 1.0~rc1
+ _ZNK7Purpose13Configuration18useSeparateProcessEv@Base 1.0
  _ZNK7Purpose13Configuration4dataEv@Base 1.0~rc1
  _ZNK7Purpose13Configuration7isReadyEv@Base 1.0~rc1
  _ZNK7Purpose17AlternativesModel10metaObjectEv@Base 1.0~rc1
@@ -64,14 +71,22 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZNK7Purpose17AlternativesModel9roleNamesEv@Base 1.0~rc1
  _ZNK7Purpose3Job10metaObjectEv@Base 1.0~rc1
  _ZNK7Purpose3Job4dataEv@Base 1.0~rc1
+ _ZNK7Purpose3Job6outputEv@Base 1.0
+ _ZNK7QString3argEiii5QChar@Base 1.0
+ (optional=templinst)_ZNKSt16initializer_listI7QStringE3endEv@Base 1.0
+ (optional=templinst)_ZNKSt16initializer_listI7QStringE4sizeEv@Base 1.0
+ (optional=templinst)_ZNKSt16initializer_listI7QStringE5beginEv@Base 1.0
  (optional=templinst)_ZNKSt16initializer_listISt4pairI7QStringPFbRKS1_RK10QJsonValueEEE3endEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairI7QStringPFbRKS1_RK10QJsonValueEEE4sizeEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairI7QStringPFbRKS1_RK10QJsonValueEEE5beginEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE3endEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE4sizeEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE5beginEv@Base 1.0~rc1
+ (optional=templinst)_ZNSt10_Iter_baseIPK7QStringLb0EE7_S_baseES2_@Base 1.0
  (optional=templinst)_ZNSt4pairI7QStringPFbRKS0_RK10QJsonValueEEC1IS0_vEEOT_RKS7_@Base 1.0~rc1
  (optional=templinst)_ZNSt4pairIi10QByteArrayEC1IN7Purpose17AlternativesModel5RolesERA9_KcvEEOT_OT0_@Base 1.0~rc1
+ (optional=templinst)_ZSt12__miter_baseIPK7QStringENSt11_Miter_baseIT_E13iterator_typeES4_@Base 1.0
+ (optional=templinst)_ZSt12__niter_baseIPK7QStringENSt11_Niter_baseIT_E13iterator_typeES4_@Base 1.0
  (optional=templinst)_ZSt7forwardI7QStringEOT_RNSt16remove_referenceIS1_E4typeE@Base 1.0~rc1
  (optional=templinst)_ZSt7forwardIN7Purpose17AlternativesModel5RolesEEOT_RNSt16remove_referenceIS3_E4typeE@Base 1.0~rc1
  (optional=templinst)_ZSt7forwardIRA9_KcEOT_RNSt16remove_referenceIS3_E4typeE@Base 1.0~rc1
