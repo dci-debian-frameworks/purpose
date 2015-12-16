@@ -40,6 +40,7 @@ Architecture: any
 Multi-Arch: same
 Depends: kde-telepathy-send-file,
          kdeconnect-plasma,
+         nodejs-legacy,
          qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
