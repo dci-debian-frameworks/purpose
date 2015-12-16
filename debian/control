@@ -7,6 +7,7 @@ Build-Depends: cmake,
                extra-cmake-modules,
                intltool,
                kaccounts-integration,
+               kde-telepathy-send-file,
                kdeconnect-plasma,
                libaccounts-glib-dev,
                libaccounts-qt5-dev,
@@ -18,6 +19,7 @@ Build-Depends: cmake,
                libsignon-qt5-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
+               qml-module-ubuntu-onlineaccounts,
                qtbase5-dev,
                qtdeclarative5-dev-tools
 Standards-Version: 3.9.6
@@ -42,6 +44,7 @@ Architecture: any
 Multi-Arch: same
 Depends: kde-telepathy-send-file,
          kdeconnect-plasma,
+         qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
