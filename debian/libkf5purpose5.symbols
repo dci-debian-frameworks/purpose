@@ -37,7 +37,6 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  _ZN7Purpose17AlternativesModelD0Ev@Base 1.0~rc1
  _ZN7Purpose17AlternativesModelD1Ev@Base 1.0~rc1
  _ZN7Purpose17AlternativesModelD2Ev@Base 1.0~rc1
- _ZN7Purpose3Job11dataChangedEv@Base 1.0~rc1
  _ZN7Purpose3Job11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.0~rc1
  _ZN7Purpose3Job11qt_metacastEPKc@Base 1.0~rc1
  _ZN7Purpose3Job13outputChangedERK11QJsonObject@Base 1.0
@@ -54,7 +53,6 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  (optional=templinst)_ZN7QObject7connectIM4KJobFvPS1_NS1_14QPrivateSignalEEPFvS2_EEEN9QtPrivate9QEnableIfIXgecvisrNS8_15FunctionPointerIT0_EE13ArgumentCountLi0EEN11QMetaObject10ConnectionEE4TypeEPKNSA_IT_E6ObjectESH_SB_@Base 1.0~rc1
  _ZN9QHashData8willGrowEv@Base 1.0~rc1
  _ZN9QHashData9firstNodeEv@Base 1.0~rc1
- _ZNK10QByteArray4dataEv@Base 1.0
  _ZNK10QByteArray7isEmptyEv@Base 1.0
  _ZNK7Purpose10PluginBase10metaObjectEv@Base 1.0~rc1
  _ZNK7Purpose13Configuration10metaObjectEv@Base 1.0~rc1
@@ -82,6 +80,7 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE3endEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE4sizeEv@Base 1.0~rc1
  (optional=templinst)_ZNKSt16initializer_listISt4pairIi10QByteArrayEE5beginEv@Base 1.0~rc1
+ (optional=templinst)_ZNKSt8functionIFbRK15KPluginMetaDataEEclES2_@Base 1.0
  (optional=templinst)_ZNSt10_Iter_baseIPK7QStringLb0EE7_S_baseES2_@Base 1.0
  (optional=templinst)_ZNSt4pairI7QStringPFbRKS0_RK10QJsonValueEEC1IS0_vEEOT_RKS7_@Base 1.0~rc1
  (optional=templinst)_ZNSt4pairIi10QByteArrayEC1IN7Purpose17AlternativesModel5RolesERA9_KcvEEOT_OT0_@Base 1.0~rc1
