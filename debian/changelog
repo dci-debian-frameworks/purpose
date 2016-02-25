@@ -3,6 +3,7 @@ purpose (1.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
     - Updated symbol files
     - Adding missing file to libkf5purpose5.install
+  * Fixing install file, again!
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 01 Dec 2015 19:24:36 +0000
 
