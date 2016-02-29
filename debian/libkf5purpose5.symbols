@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.0 amd64 i386
+# SymbolsHelper-Confirmed: 1.0+git20160229.0117+16.04 amd64 i386
 libKF5Purpose.so.5 libkf5purpose5 #MINVER#
  (optional=templinst)_ZN14KPluginFactory6createI7QObjectEEPT_PS1_RK5QListI8QVariantE@Base 1.0~rc1
  _ZN7Purpose10PluginBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.0~rc1
