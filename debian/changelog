@@ -5,6 +5,9 @@ purpose (1.0-0ubuntu1) UNRELEASED; urgency=medium
     - Adding missing file to libkf5purpose5.install
   * Fixing install file, again!
   * Refreshing symbols
+  * Making usr/share/kpackage/Purpose/Twitter/contents/code/main.js
+    executable in rules
+  * Trying to add Ubuntu.OnlineAccounts
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 01 Dec 2015 19:24:36 +0000
 
