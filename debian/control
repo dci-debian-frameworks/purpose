@@ -16,7 +16,6 @@ Build-Depends: cmake,
                libsignon-qt5-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qml-module-ubuntu-onlineaccounts,
                qtbase5-dev,
                qtdeclarative5-dev-tools
 Standards-Version: 3.9.6
