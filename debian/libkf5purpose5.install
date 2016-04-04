@@ -1,7 +1,9 @@
 usr/lib/*/libKF5Purpose.so.5
 usr/lib/*/libKF5Purpose.so.5.*
 usr/lib/*/libReviewboardHelpers.so
+usr/lib/*/libexec/kf5/purposeprocess
 usr/lib/*/qt5/plugins/purpose/*
 usr/share/accounts/services/
 usr/share/icons/hicolor/*
+usr/share/kpackage/Purpose/Twitter/
 usr/share/purpose/*
