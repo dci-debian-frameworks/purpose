@@ -1,3 +1,9 @@
+purpose (1.1~rc-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:37:24 +0000
+
 purpose (1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
