@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 1.1 amd64
-libKF5Purpose.so.5 libkf5purpose5 #MINVER#
+libKF5Purpose.so.5 libkf5purpose5 #MINVER#, libkf5purpose-bin
  _ZN7Purpose10PluginBase11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.1
  _ZN7Purpose10PluginBase11qt_metacastEPKc@Base 1.1
  _ZN7Purpose10PluginBase16staticMetaObjectE@Base 1.1
