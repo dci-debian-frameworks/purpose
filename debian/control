@@ -53,6 +53,19 @@ Description: Provides an abstraction to provide and leverage actions of a specif
  .
  This package contains the Purpose library.
 
+Package: libkf5purpose-bin
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Provides an abstraction to provide and leverage actions of a specific kind, runtime
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
+ .
+ This package contains the Purpose runtime elements.
+
 Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
