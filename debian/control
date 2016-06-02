@@ -27,26 +27,39 @@ Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5purpose5 (= ${binary:Version}), ${misc:Depends}
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Description: Provides an abstraction to provide and leverage actions of a specific kind, devel file
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Contains development files for Purpose.
+ This package contains the Purpose development files.
 
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Description: Provides an abstraction to provide and leverage actions of a specific kind, library
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Contains the Purpose library.
+ This package contains the Purpose library.
 
 Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Description: Provides an abstraction to provide and leverage actions of a specific kind, qml bindings
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Contains the Qt Quick QML bindings for Purpose.
+ This package contains the Purpose Qt Quick QML bindings.
