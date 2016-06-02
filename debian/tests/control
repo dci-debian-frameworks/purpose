@@ -1,6 +1,6 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, openbox, kinit
+         xvfb, xauth, dbus-x11, openbox, kinit, libgl1-mesa-dri
 Restrictions: build-needed
 
 Tests: acc
