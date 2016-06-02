@@ -19,9 +19,9 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev
 Standards-Version: 3.9.6
-Homepage: https://projects.kde.org/projects/playground/libs/purpose
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/purpose.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/purpose.git
+Homepage: https://quickgit.kde.org/?p=purpose.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
 
 Package: libkf5purpose-dev
 Section: libdevel
@@ -40,7 +40,7 @@ Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
- Contains development files for Purpose.
+ Contains the Purpose library.
 
 Package: qml-modules-org-kde-purpose
 Architecture: any
@@ -50,14 +50,3 @@ Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
  .
  Contains the Qt Quick QML bindings for Purpose.
-
-Package: libkf5purpose5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5purpose5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for Purpose
- Framework for providing abstractions to get the developer's purposes fulfilled.
- .
- Contains debug symbols for Purpose.
