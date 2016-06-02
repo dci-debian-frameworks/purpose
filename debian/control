@@ -2,22 +2,25 @@ Source: purpose
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9.0.0),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.7.0~),
                intltool,
                kaccounts-integration,
+               kio-dev (>= 5.7.0~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev,
                libkaccounts-dev,
-               libkf5coreaddons-dev,
+               libkf5coreaddons-dev (>= 5.7.0~),
                libkf5declarative-dev,
+               libkf5i18n-dev (>= 5.7.0~),
                libkf5kcmutils-dev,
                libkf5wallet-dev,
                libsignon-qt5-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev
+               qtbase5-dev (>= 5.2~),
+               qtdeclarative5-dev (>= 5.2~)
 Standards-Version: 3.9.8
 Homepage: https://quickgit.kde.org/?p=purpose.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
@@ -54,7 +57,6 @@ Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: library for abstractions to get the developer's purposes fulfilled
 Description: Provides an abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
