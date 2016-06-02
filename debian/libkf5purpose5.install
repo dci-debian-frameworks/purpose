@@ -6,4 +6,5 @@ usr/lib/*/qt5/plugins/purpose/*
 usr/share/accounts/services/
 usr/share/icons/hicolor/*
 usr/share/kpackage/Purpose/Twitter/
+usr/share/locale/*
 usr/share/purpose/*
