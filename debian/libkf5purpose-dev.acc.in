@@ -6,8 +6,8 @@
 </version>
 
 <headers>
-    /usr/include/KF5/Purpose/
     /usr/include/KF5/purpose/
+    /usr/include/KF5/purposewidgets/
 </headers>
 
 <libs>
