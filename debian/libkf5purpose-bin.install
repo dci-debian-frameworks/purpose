@@ -1,3 +1,4 @@
+usr/lib/*/libReviewboardHelpers.so
 usr/lib/*/libexec/kf5/purposeprocess
 usr/lib/*/qt5/plugins/purpose/
 usr/share/accounts/services/kde/google-youtube.service
