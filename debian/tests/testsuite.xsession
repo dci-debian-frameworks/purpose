@@ -8,7 +8,10 @@ mkdir -p ${XDG_DATA_HOME} || true
 mkdir -p ${XDG_RUNTIME_DIR} || true
 export XDG_DATA_DIRS="$XDG_DATA_HOME:${HOME}/.local/share:/usr/share"
 openbox & WMPID=$!
+sleep 1
+kdeinit5
 cleanup () {
+    kdeinit5_shutdown
     if [ -n "$WMPID" ]; then kill "$WMPID"; fi
 }
 trap cleanup EXIT
