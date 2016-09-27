@@ -6,4 +6,5 @@ usr/share/accounts/services/kde/twitter-microblog.service
 usr/share/icons/hicolor/*/actions/kipiplugin_youtube.png
 usr/share/icons/hicolor/*/apps/reviewboard-purpose.png
 usr/share/kpackage/Purpose/
+usr/share/locale/*/LC_MESSAGES/*purpose*.mo
 usr/share/purpose

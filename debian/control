@@ -48,8 +48,8 @@ Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
-Breaks: libkf5purposewidgets5 (<< ${ci:BuildVersion})
-Replaces: libkf5purposewidgets5 (<< ${ci:BuildVersion})
+Conflicts: libkf5purposewidgets5
+Replaces: libkf5purposewidgets5
 Description: Provides an abstraction to provide and leverage actions of a specific kind, library
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
