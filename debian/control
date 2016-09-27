@@ -2,83 +2,91 @@ Source: purpose
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cmake,
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9.0.0),
-               extra-cmake-modules,
+               extra-cmake-modules (>= 1.7.0~),
                intltool,
+               kaccounts-integration,
+               kio-dev (>= 5.7.0~),
                libaccounts-glib-dev,
                libaccounts-qt5-dev,
                libkaccounts-dev,
-               libkf5coreaddons-dev,
+               libkf5coreaddons-dev (>= 5.7.0~),
                libkf5declarative-dev,
+               libkf5i18n-dev (>= 5.7.0~),
                libkf5kcmutils-dev,
                libkf5wallet-dev,
                libsignon-qt5-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev,
-               qtdeclarative5-dev-tools
-Standards-Version: 3.9.6
-Homepage: https://projects.kde.org/projects/playground/libs/purpose
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/purpose.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/purpose.git
+               qtbase5-dev (>= 5.2~),
+               qtdeclarative5-dev (>= 5.2~)
+Standards-Version: 3.9.8
+Homepage: https://quickgit.kde.org/?p=purpose.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
 
 Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
-Depends: libkf5purpose5 (= ${binary:Version}),
-         libkf5purposewidgets5 (= ${binary:Version}),
+Depends: libkf5coreaddons-dev (>= 5.7.0~),
+         libkf5purpose5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.2~),
          ${misc:Depends}
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Description: Provides an abstraction to provide and leverage actions of a specific kind, devel files
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Contains development files for Purpose.
+ This package contains the Purpose development files.
 
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
-Depends: kdeconnect,
-         nodejs-legacy,
-         qml-module-org-kde-kquickcontrolsaddons,
-         ${misc:Depends},
-         ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
-Suggests: kde-telepathy-send-file
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Breaks: libkf5purposewidgets5 (<< ${ci:BuildVersion})
+Replaces: libkf5purposewidgets5 (<< ${ci:BuildVersion})
+Description: Provides an abstraction to provide and leverage actions of a specific kind, library
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Does not contain development files for Purpose.
+ This package contains the Purpose library.
 
-Package: libkf5purposewidgets5
+Package: libkf5purpose-bin
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Depends: nodejs, ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5purpose5 (<< ${ci:BuildVersion})
+Replaces: libkf5purpose5 (<< ${ci:BuildVersion})
+Description: Provides an abstraction to provide and leverage actions of a specific kind, runtime
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Does not contain development files for Purpose.
+ This package contains the Purpose runtime elements.
 
 Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Depends: kdeconnect,
-         qml-module-ubuntu-onlineaccounts,
+Depends: qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
+         qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: library for abstractions to get the developer's purposes fulfilled
- Framework for providing abstractions to get the developer's purposes fulfilled.
+Description: Provides an abstraction to provide and leverage actions of a specific kind, qml bindings
+ Purpose offers the possibility to create integrate services and actions on
+ any application without having to implement them specifically. Purpose will
+ offer them mechanisms to list the different alternatives to execute given the
+ requested action type and will facilitate components so that all the plugins
+ can receive all the information they need.
  .
- Contains the Qt Quick QML bindings for Purpose.
-
-Package: libkf5purpose5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5purpose5 (= ${binary:Version}) | libkf5purposewidgets5 (= ${binary:Version}) | qml-modules-org-kde-purpose (= ${binary:Version}),
-         ${misc:Depends}
-Description: debug symbols for Purpose
- Framework for providing abstractions to get the developer's purposes fulfilled.
- .
- Contains debug symbols for Purpose.
+ This package contains the Purpose Qt Quick QML bindings.
