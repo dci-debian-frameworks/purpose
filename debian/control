@@ -34,7 +34,7 @@ Depends: libkf5coreaddons-dev (>= 5.7.0~),
          libkf5purpose5 (= ${binary:Version}),
          qtbase5-dev (>= 5.2~),
          ${misc:Depends}
-Description: Provides an abstraction to provide and leverage actions of a specific kind, devel files
+Description: abstraction to provide and leverage actions of a specific kind, devel files
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
  offer them mechanisms to list the different alternatives to execute given the
@@ -50,7 +50,7 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
 Conflicts: libkf5purposewidgets5
 Replaces: libkf5purposewidgets5
-Description: Provides an abstraction to provide and leverage actions of a specific kind, library
+Description: abstraction to provide and leverage actions of a specific kind, library
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
  offer them mechanisms to list the different alternatives to execute given the
@@ -65,7 +65,7 @@ Multi-Arch: same
 Depends: nodejs, ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5purpose5 (<< ${ci:BuildVersion})
 Replaces: libkf5purpose5 (<< ${ci:BuildVersion})
-Description: Provides an abstraction to provide and leverage actions of a specific kind, runtime
+Description: abstraction to provide and leverage actions of a specific kind, runtime
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
  offer them mechanisms to list the different alternatives to execute given the
@@ -82,7 +82,7 @@ Depends: qml-module-qtquick-controls,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Provides an abstraction to provide and leverage actions of a specific kind, qml bindings
+Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
  offer them mechanisms to list the different alternatives to execute given the
