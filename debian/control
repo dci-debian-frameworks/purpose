@@ -31,7 +31,7 @@ Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.7.0~),
-         libkf5purpose5 (= ${binary:Version}),
+         libkf5purpose5 (= ${ci:BuildVersion}),
          qtbase5-dev (>= 5.2~),
          ${misc:Depends}
 Description: abstraction to provide and leverage actions of a specific kind, devel files
