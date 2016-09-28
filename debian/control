@@ -96,3 +96,16 @@ Description: abstraction to provide and leverage actions of a specific kind, qml
  can receive all the information they need.
  .
  This package contains the Purpose Qt Quick QML bindings.
+
+Package: libkf5purposewidgets5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5purpose5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Section: oldlibs
+Priority: extra
+Description: Transitional package
+ This transitional package can be removed.
+ .
+ Does not contain development files for Purpose.
