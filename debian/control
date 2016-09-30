@@ -46,17 +46,15 @@ Description: abstraction to provide and leverage actions of a specific kind, dev
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: libkf5purpose-bin,
-            qml-modules-org-kde-purpose (= ${binary:Version})
-Conflicts: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
-Replaces: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
-Description: abstraction to provide and leverage actions of a specific kind, library
- Purpose offers the possibility to create integrate services and actions on
- any application without having to implement them specifically. Purpose will
- offer them mechanisms to list the different alternatives to execute given the
- requested action type and will facilitate components so that all the plugins
- can receive all the information they need.
+Depends: kdeconnect,
+         nodejs-legacy,
+         qml-module-org-kde-kquickcontrolsaddons,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: qml-module-org-kde-purpose (= ${binary:Version})
+Suggests: kde-telepathy-send-file
+Description: library for abstractions to get the developer's purposes fulfilled
+ Framework for providing abstractions to get the developer's purposes fulfilled.
  .
  This package contains the Purpose library.
 
@@ -81,14 +79,17 @@ Description: abstraction to provide and leverage actions of a specific kind, run
  .
  This package contains the Purpose runtime elements.
 
-Package: qml-modules-org-kde-purpose
+Package: qml-module-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Depends: libkf5purpose-bin (= ${binary:Version})
-         ${misc:Depends},
+Replaces: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
+Breaks: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
+Depends: kdeconnect,
          qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
+         qml-module-ubuntu-onlineaccounts,
+         ${misc:Depends},
          ${shlibs:Depends}
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
@@ -99,14 +100,24 @@ Description: abstraction to provide and leverage actions of a specific kind, qml
  .
  This package contains the Purpose Qt Quick QML bindings.
 
-Package: libkf5purposewidgets5
+Package: qml-modules-org-kde-purpose
+Architecture: any
+Multi-Arch: same
+Depends: qml-module-org-kde-purpose
+Section: oldlibs
+Priority: extra
+Description: transitional package for renamed qml-module-org-kde-purpose
+ Transitional package for renamed qml-module-org-kde-purpose.  This
+ package can be safely removed.
+
+Package: libkf5purpose5-dbg
+Priority: extra
+Section: oldlibs
 Architecture: any
 Multi-Arch: same
 Depends: libkf5purpose5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Section: oldlibs
-Priority: extra
 Description: Transitional package
  This transitional package can be removed.
  .
