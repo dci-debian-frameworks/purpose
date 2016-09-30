@@ -31,7 +31,7 @@ Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.7.0~),
-         libkf5purpose5 (>= 1.1),
+         libkf5purpose5 (= ${binary:Version}),
          qtbase5-dev (>= 5.2~),
          ${misc:Depends}
 Description: abstraction to provide and leverage actions of a specific kind, devel files
@@ -46,8 +46,7 @@ Description: abstraction to provide and leverage actions of a specific kind, dev
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
-Depends: kdeconnect,
-         nodejs-legacy,
+Depends: libkf5purpose-bin,
          qml-module-org-kde-kquickcontrolsaddons,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -62,7 +61,7 @@ Package: libkf5purpose-bin
 Architecture: any
 Multi-Arch: same
 Depends: kdeconnect,
-         nodejs,
+         nodejs-legacy,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-dialogs,
          qml-module-ubuntu-onlineaccounts,
