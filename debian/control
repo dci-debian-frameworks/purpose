@@ -47,7 +47,8 @@ Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: qml-modules-org-kde-purpose (= ${binary:Version})
+Recommends: libkf5purpose-bin,
+            qml-modules-org-kde-purpose (= ${binary:Version})
 Conflicts: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
 Replaces: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
 Description: abstraction to provide and leverage actions of a specific kind, library
