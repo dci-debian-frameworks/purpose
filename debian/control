@@ -46,12 +46,10 @@ Description: abstraction to provide and leverage actions of a specific kind, dev
 Package: libkf5purpose5
 Architecture: any
 Multi-Arch: same
-Depends: kdeconnect,
-         nodejs-legacy,
-         qml-module-org-kde-kquickcontrolsaddons,
+Depends: qml-module-org-kde-kquickcontrolsaddons,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: qml-module-org-kde-purpose (= ${binary:Version})
+Recommends: libkf5purpose-bin, qml-module-org-kde-purpose (= ${binary:Version})
 Suggests: kde-telepathy-send-file
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -62,7 +60,7 @@ Package: libkf5purpose-bin
 Architecture: any
 Multi-Arch: same
 Depends: kdeconnect,
-         nodejs,
+         nodejs-legacy,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-dialogs,
          qml-module-ubuntu-onlineaccounts,
