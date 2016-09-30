@@ -84,10 +84,11 @@ Description: abstraction to provide and leverage actions of a specific kind, run
 Package: qml-modules-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Depends: qml-module-qtquick-controls,
+Depends: libkf5purpose-bin (= ${binary:Version})
+         ${misc:Depends},
+         qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
-         ${misc:Depends},
          ${shlibs:Depends}
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
