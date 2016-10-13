@@ -49,6 +49,8 @@ Multi-Arch: same
 Depends: qml-module-org-kde-kquickcontrolsaddons,
          ${misc:Depends},
          ${shlibs:Depends}
+Conflicts: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
+Replaces: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
 Recommends: libkf5purpose-bin, qml-module-org-kde-purpose (= ${binary:Version})
 Suggests: kde-telepathy-send-file
 Description: library for abstractions to get the developer's purposes fulfilled
