@@ -64,7 +64,6 @@ Multi-Arch: same
 Depends: nodejs-legacy,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-dialogs,
-         qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kdeconnect
@@ -87,7 +86,6 @@ Breaks: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
 Depends: qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
-         qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kdeconnect
