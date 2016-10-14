@@ -1,5 +1,94 @@
-purpose (1.1-1~) UNRELEASED; urgency=medium
+purpose (1.1-1) experimental; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial Package
+  * add new runtime dependencies and install new twitter plugin
+  * add twitter runtime dep nodejs-legacy
+  * move depends to suggests for now, they bring in too many dependencies until kf5 versions are built
+  * add back depends on kdeconnect now that we built it in neon and it's installable
+  * dep on kdeconnect not kdeconnect-plasma
+  * fix watch file
+  * fix mangled files
+  * cmake ignore runtime bits
+  * ignore shlibs on plugins
+  * add lintian overrides
+  * description-too-long
+  * use ci version to allow installs
+  * qml deps
+  * it didn't like ci:buildversion
+  * just override lintian error for -dev dep version, needs to wait for version numbers with debian to sync before we can use a proper version again
+  * fix version
+  * add transitional package for libkf5purposewidgets5
+  * rename to qml-modules-org-kde-purpose
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 24 Apr 2015 16:46:30 +0200
+  [ Harald Sitter ]
+  * fix qml dependencies
+  * install new stuff
+  * add new library
+  * add more missing qml deps
+  * install new dev so
+  * fix bad copynpaste
+  * add symbol files because symbol files are kewl
+  * lintian override private lib
+  * symbol update
+  * make sure the dev package depends on the widget lib
+  * revise build deps
+  * remove bloody workarounds
+  * override existing runtime deps
+  * add back dep on kdeconnect-plasma as the kdeconnect plugin is in the lib
+  * mangle rc version to not be shit
+  * also mangle the alpha
+  * sod off lintian
+  * import test rigging from kio
+  * install built bins to make sure all relevant qml deps are here
+  * install new localization
+  * twitter and youtube need kquickcontrolsaddons
+  * recommend libkf5purpose-bin for consistency
+  * force qml module to depend on -bin
+
+  [ Clive Johnston ]
+  * Fixing watch file
+  * Updating symbols file
+  * Adding missing file to libkf5purpose5.install
+  * Adding unusual-interpreter to lintian overrides
+  * Adding new and removing MISSING symbols
+
+  [ Rohan Garg ]
+  * Try building purpose without a bdep on qml-module-ubuntu-onlineaccounts
+  * Remove runtime dependencies from build-dependencies
+  * Install all services together
+
+  [ Maximiliano Curia ]
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * Initial tweaking
+  * Update copyiright information
+  * Add upstream metadata (DEP-12)
+  * Update descriptions
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+  * Update tests
+  * Split plugins libexec and data from the lib package
+  * Add me as a human maintainer
+  * The tests require kinit
+  * Provide swrast for the tests
+  * Add patch: use_nodejs.diff
+  * Depend on nodejs for the twitter script
+  * Add a symbols file
+  * Inject the bin dependency through the symbols file
+  * Install reviewboardhelper
+  * Fix the acc file
+  * Add missing dependencies
+  * Downgrade kdeconnect dependency to recommends.
+  * Update build-deps and deps with the info from cmake
+  * Drop unused -dbg package
+  * Drop circular -bin<->lib dependency
+  * Drop ubuntu specific dependency
+  * Add the libKF5PurposeWidgets.so.5 symbols to the symbols file
+  * Add package-must-activate-ldconfig-trigger lintian override for helper lib libReviewboardHelpers.so
+
+  [ Raymond Wooninck ]
+  * Use a different version string
+  * Get the right conflict/replace in place
+  * Fix version strings
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Oct 2016 18:18:00 +0200
