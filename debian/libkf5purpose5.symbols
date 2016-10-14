@@ -75,3 +75,16 @@ libKF5Purpose.so.5 libkf5purpose5 #MINVER#, libkf5purpose-bin
  _ZTVN7Purpose13ConfigurationE@Base 1.1
  _ZTVN7Purpose17AlternativesModelE@Base 1.1
  _ZTVN7Purpose3JobE@Base 1.1
+libKF5PurposeWidgets.so.5 libkf5purpose5 #MINVER#
+ _ZN7Purpose4Menu11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.1
+ _ZN7Purpose4Menu11qt_metacastEPKc@Base 1.1
+ _ZN7Purpose4Menu16staticMetaObjectE@Base 1.1
+ _ZN7Purpose4Menu6reloadEv@Base 1.1
+ _ZN7Purpose4Menu8finishedERK11QJsonObjectiRK7QString@Base 1.1
+ _ZN7Purpose4MenuC1EP7QWidget@Base 1.1
+ _ZN7Purpose4MenuC2EP7QWidget@Base 1.1
+ _ZNK7Purpose4Menu10metaObjectEv@Base 1.1
+ _ZNK7Purpose4Menu5modelEv@Base 1.1
+ _ZTIN7Purpose4MenuE@Base 1.1
+ _ZTSN7Purpose4MenuE@Base 1.1
+ _ZTVN7Purpose4MenuE@Base 1.1
