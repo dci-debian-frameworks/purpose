@@ -24,12 +24,13 @@ Build-Depends: cmake (>= 2.8.12~),
                qtdeclarative5-dev (>= 5.2~)
 Standards-Version: 3.9.8
 Homepage: https://quickgit.kde.org/?p=purpose.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/purpose.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/purpose.git
 
 Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5coreaddons-dev (>= 5.7.0~),
          libkf5purpose5 (>= 1.1),
          qtbase5-dev (>= 5.2~),
@@ -113,8 +114,7 @@ Description: transitional package for renamed qml-module-org-kde-purpose
 Package: libkf5purpose5-dbg
 Priority: extra
 Section: oldlibs
-Architecture: any
-Multi-Arch: same
+Architecture: all
 Depends: libkf5purpose5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -124,8 +124,7 @@ Description: Transitional package
  Does not contain development files for Purpose.
 
 Package: libkf5purposewidgets5
-Architecture: any
-Multi-Arch: same
+Architecture: all
 Depends: libkf5purpose5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
