@@ -2,3 +2,4 @@ package-name-doesnt-match-sonames libReviewboardHelpers
 script-not-executable usr/share/kpackage/Purpose/Twitter/contents/code/main.js
 shlib-without-versioned-soname usr/lib/*/libReviewboardHelpers.so libReviewboardHelpers.so
 postinst-must-call-ldconfig usr/lib/*/libReviewboardHelpers.so
+package-must-activate-ldconfig-trigger usr/lib/*/libReviewboardHelpers.so
