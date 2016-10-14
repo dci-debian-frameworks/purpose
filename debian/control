@@ -25,12 +25,13 @@ Build-Depends: cmake (>= 2.8.12~),
                qtdeclarative5-dev (>= 5.2~)
 Standards-Version: 3.9.8
 Homepage: https://quickgit.kde.org/?p=purpose.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/purpose.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/purpose.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/purpose.git
 
 Package: libkf5purpose-dev
 Section: libdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5coreaddons-dev (>= 5.7.0~),
          libkf5purpose5 (= ${binary:Version}),
          libkf5purpose-bin (= ${binary:Version}),
@@ -51,7 +52,9 @@ Multi-Arch: same
 Depends: qml-module-org-kde-kquickcontrolsaddons,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: qml-module-org-kde-purpose (= ${binary:Version})
+Conflicts: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
+Replaces: libkf5purposewidgets5 (<< ${source:Version}~ciBuild)
+Recommends: libkf5purpose-bin, qml-module-org-kde-purpose (= ${binary:Version})
 Suggests: kde-telepathy-send-file
 Description: library for abstractions to get the developer's purposes fulfilled
  Framework for providing abstractions to get the developer's purposes fulfilled.
@@ -81,8 +84,8 @@ Description: abstraction to provide and leverage actions of a specific kind, run
 Package: qml-module-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Replaces: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
-Breaks: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
+Replaces: qml-modules-org-kde-purpose (<< ${source:Version}~ciBuild)
+Breaks: qml-modules-org-kde-purpose (<< ${source:Version}~ciBuild)
 Depends: qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
@@ -107,3 +110,15 @@ Priority: extra
 Description: transitional package for renamed qml-module-org-kde-purpose
  Transitional package for renamed qml-module-org-kde-purpose.  This
  package can be safely removed.
+
+Package: libkf5purposewidgets5
+Architecture: all
+Depends: libkf5purpose5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Section: oldlibs
+Priority: extra
+Description: Transitional package
+ This transitional package can be removed.
+ .
+ Does not contain development files for Purpose.
