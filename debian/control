@@ -115,7 +115,7 @@ Package: libkf5purpose5-dbg
 Priority: extra
 Section: oldlibs
 Architecture: all
-Depends: libkf5purpose5 (= ${binary:Version}),
+Depends: libkf5purpose5 (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: Transitional package
@@ -125,7 +125,7 @@ Description: Transitional package
 
 Package: libkf5purposewidgets5
 Architecture: all
-Depends: libkf5purpose5 (= ${binary:Version}),
+Depends: libkf5purpose5 (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Section: oldlibs
