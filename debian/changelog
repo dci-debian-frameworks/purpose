@@ -1,3 +1,9 @@
+purpose (1.1-2~) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Nov 2016 13:53:13 +0100
+
 purpose (1.1-1) experimental; urgency=medium
 
   [ Jonathan Riddell ]
