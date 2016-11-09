@@ -1,5 +1,7 @@
+# It's a helper plugin
+dev-pkg-without-shlib-symlink usr/lib/*/libReviewboardHelpers.so usr/lib/*/libReviewboardHelpers.so
+package-must-activate-ldconfig-trigger usr/lib/*/libReviewboardHelpers.so
 package-name-doesnt-match-sonames libReviewboardHelpers
+postinst-must-call-ldconfig usr/lib/*/libReviewboardHelpers.so
 script-not-executable usr/share/kpackage/Purpose/Twitter/contents/code/main.js
 shlib-without-versioned-soname usr/lib/*/libReviewboardHelpers.so libReviewboardHelpers.so
-postinst-must-call-ldconfig usr/lib/*/libReviewboardHelpers.so
-package-must-activate-ldconfig-trigger usr/lib/*/libReviewboardHelpers.so
