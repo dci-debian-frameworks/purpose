@@ -1,8 +1,0 @@
---- a/src/plugins/twitter/contents/code/main.js
-+++ b/src/plugins/twitter/contents/code/main.js
-@@ -1,4 +1,4 @@
--#!/usr/bin/env node
-+#!/usr/bin/env nodejs
- 
- function processArgs() {
-     var ret = {};
