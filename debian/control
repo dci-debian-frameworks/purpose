@@ -63,7 +63,7 @@ Description: library for abstractions to get the developer's purposes fulfilled
 Package: libkf5purpose-bin
 Architecture: any
 Multi-Arch: same
-Depends: nodejs-legacy,
+Depends: nodejs-legacy [!armel],
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
