@@ -65,6 +65,7 @@ Multi-Arch: same
 Depends: kdeconnect,
          nodejs-legacy,
          qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-org-kde-purpose (= ${binary:Version}),
          qml-module-qtquick-dialogs,
          qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
