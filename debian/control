@@ -65,6 +65,8 @@ Multi-Arch: same
 Replaces: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
 Breaks: qml-modules-org-kde-purpose (<< 1.1-0neon+16.04+build16)
 Depends: kdeconnect,
+         qml-module-qtquick-controls,
+         qml-module-qtquick-layouts,
          qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
