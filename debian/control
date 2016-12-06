@@ -69,8 +69,8 @@ Depends: nodejs-legacy [!armel],
          ${misc:Depends},
          ${shlibs:Depends}
 Recommends: kdeconnect
-Breaks: libkf5purpose5 (<< ${source:Version}~ciBuild)
-Replaces: libkf5purpose5 (<< ${source:Version}~ciBuild)
+Breaks: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
+Replaces: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
 Description: abstraction to provide and leverage actions of a specific kind, runtime
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
