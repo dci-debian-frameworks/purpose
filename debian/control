@@ -102,16 +102,6 @@ Description: abstraction to provide and leverage actions of a specific kind, qml
  .
  This package contains the Purpose Qt Quick QML bindings.
 
-Package: qml-modules-org-kde-purpose
-Architecture: any
-Multi-Arch: same
-Depends: qml-module-org-kde-purpose
-Section: oldlibs
-Priority: extra
-Description: transitional package for renamed qml-module-org-kde-purpose
- Transitional package for renamed qml-module-org-kde-purpose.  This
- package can be safely removed.
-
 Package: libkf5purpose5-dbg
 Priority: extra
 Section: oldlibs
