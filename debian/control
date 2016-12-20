@@ -84,8 +84,6 @@ Description: abstraction to provide and leverage actions of a specific kind, run
 Package: qml-module-org-kde-purpose
 Architecture: any
 Multi-Arch: same
-Replaces: qml-modules-org-kde-purpose (<< ${source:Version}~ciBuild)
-Breaks: qml-modules-org-kde-purpose (<< ${source:Version}~ciBuild)
 Depends: kdeconnect,
          qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
