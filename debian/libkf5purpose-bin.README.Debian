@@ -1,0 +1,9 @@
+nodejs Dependency
+-----------------
+
+Please note that the twitter plugin included in this package requires nodejs
+to run.
+
+This has been downgraded to a recommends as nodejs is not available in all
+architectures.
+

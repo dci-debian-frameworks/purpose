@@ -63,12 +63,11 @@ Description: library for abstractions to get the developer's purposes fulfilled
 Package: libkf5purpose-bin
 Architecture: any
 Multi-Arch: same
-Depends: nodejs [!armel],
-         qml-module-org-kde-kquickcontrolsaddons,
+Depends: qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-dialogs,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: kdeconnect
+Recommends: kdeconnect, nodejs
 Breaks: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
 Replaces: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
 Description: abstraction to provide and leverage actions of a specific kind, runtime
