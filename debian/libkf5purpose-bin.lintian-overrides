@@ -2,3 +2,5 @@ package-name-doesnt-match-sonames libReviewboardHelpers
 script-not-executable usr/share/kpackage/Purpose/Twitter/contents/code/main.js
 shlib-without-versioned-soname usr/lib/*/libReviewboardHelpers.so libReviewboardHelpers.so
 postinst-must-call-ldconfig usr/lib/*/libReviewboardHelpers.so
+libkf5purpose-bin: package-name-doesnt-match-sonames libPhabricatorHelpers libReviewboardHelpers
+libkf5purpose-bin: shlib-without-versioned-soname usr/lib/*/libPhabricatorHelpers.so libPhabricatorHelpers.so
