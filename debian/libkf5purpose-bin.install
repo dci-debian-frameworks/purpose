@@ -3,6 +3,7 @@ usr/lib/*/libReviewboardHelpers.so
 usr/lib/*/libexec/kf5/purposeprocess
 usr/lib/*/qt5/plugins/purpose/
 usr/share/accounts/services/kde/google-youtube.service
+usr/share/accounts/services/kde/nextcloud-upload.service
 usr/share/accounts/services/kde/twitter-microblog.service
 usr/share/icons/hicolor/*/actions/kipiplugin_youtube.png
 usr/share/icons/hicolor/*/apps/reviewboard-purpose.png
