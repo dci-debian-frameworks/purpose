@@ -1,0 +1,2 @@
+libkf5purpose-bin: package-name-doesnt-match-sonames libPhabricatorHelpers libReviewboardHelpers
+libkf5purpose-bin: shlib-without-versioned-soname usr/lib/*/libPhabricatorHelpers.so libPhabricatorHelpers.so
