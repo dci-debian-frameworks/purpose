@@ -6,6 +6,7 @@ purpose (1.1-5~) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
   * Switch Homepage to a working cgit.kde.org URL.
+  * Drop the transitional qml-modules-org-kde-purpose binary.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Feb 2017 11:57:29 +0100
 
