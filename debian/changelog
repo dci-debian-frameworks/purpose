@@ -1,4 +1,6 @@
-purpose (1.1-5~) UNRELEASED; urgency=medium
+purpose (1.1-5) unstable; urgency=medium
+
+  * Team upload.
 
   [ Maximiliano Curia ]
   * Downgrade nodejs to Recommends.
@@ -14,7 +16,7 @@ purpose (1.1-5~) UNRELEASED; urgency=medium
     paths for dh_makeshlibs, so it properly works also on i386 architectures.
   * Fix Git web interface URLs in debian/upstream/metadata.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Feb 2017 11:57:29 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 18 Jun 2017 14:57:16 +0200
 
 purpose (1.1-4) unstable; urgency=medium
 
