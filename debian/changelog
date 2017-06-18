@@ -10,6 +10,7 @@ purpose (1.1-5~) UNRELEASED; urgency=medium
   * Remove unused debian/meta/cmake-ignore file.
   * Use $(DEB_HOST_MULTIARCH) instead of $(DEB_HOST_GNU_TYPE) in excluded
     paths for dh_makeshlibs, so it properly works also on i386 architectures.
+  * Fix Git web interface URLs in debian/upstream/metadata.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Feb 2017 11:57:29 +0100
 
