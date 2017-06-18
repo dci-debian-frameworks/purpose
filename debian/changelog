@@ -4,6 +4,9 @@ purpose (1.1-5~) UNRELEASED; urgency=medium
   * Downgrade nodejs to Recommends.
     Thanks to Bob Tracy for reporting (Closes: 855486)
 
+  [ Pino Toscano ]
+  * Switch Homepage to a working cgit.kde.org URL.
+
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Feb 2017 11:57:29 +0100
 
 purpose (1.1-4) unstable; urgency=medium
