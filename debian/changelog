@@ -1,9 +1,10 @@
 purpose (1.1-5~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Downgrade nodejs to Recommends.
     Thanks to Bob Tracy for reporting (Closes: 855486)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 19 Feb 2017 11:57:29 +0100
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 19 Feb 2017 11:57:29 +0100
 
 purpose (1.1-4) unstable; urgency=medium
 
