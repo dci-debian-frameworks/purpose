@@ -88,9 +88,9 @@ Depends: kdeconnect,
          qml-module-qtquick-controls,
          qml-module-qtquick-layouts,
          qml-module-qtquick2,
-         qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: qml-module-ubuntu-onlineaccounts
 Description: abstraction to provide and leverage actions of a specific kind, qml bindings
  Purpose offers the possibility to create integrate services and actions on
  any application without having to implement them specifically. Purpose will
