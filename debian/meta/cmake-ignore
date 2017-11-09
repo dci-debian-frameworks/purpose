@@ -1,3 +1,5 @@
-Ubuntu.OnlineAccounts-QMLModule
-org.kde.kdeconnect-QMLModule
-org.kde.kquickcontrolsaddons-QMLModule
+- Ubuntu.OnlineAccounts-QMLModule
+- org.kde.kdeconnect-QMLModule
+- org.kde.kquickcontrolsaddons-QMLModule
+- QCH , API documentation in QCH format (for e.g. Qt Assistant, Qt Creator & KDevelop):
+  series: xenial
