@@ -1,5 +1,9 @@
-purpose (1.1-1~) UNRELEASED; urgency=medium
+purpose (1.2.1-0neon) xenial; urgency=medium
 
+  [ Jonathan Riddell ]
   * Initial Package
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 24 Apr 2015 16:46:30 +0200
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 09 Nov 2017 15:58:49 +0000
