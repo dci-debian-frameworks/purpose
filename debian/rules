@@ -6,6 +6,3 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 override_dh_auto_test:
 	# Disable auto_tests at build time
 	:
-
-override_dh_makeshlibs:
-	$(overridden_command) -Xusr/lib/$(DEB_HOST_GNU_TYPE)/qt5/plugins/purpose/ -Xusr/lib/$(DEB_HOST_GNU_TYPE)/libReviewboardHelpers.so
