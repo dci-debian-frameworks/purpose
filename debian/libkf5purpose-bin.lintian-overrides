@@ -1,6 +1,9 @@
-package-name-doesnt-match-sonames libReviewboardHelpers
+package-name-doesnt-match-sonames libPhabricatorHelpers libReviewboardHelpers
 script-not-executable usr/share/kpackage/Purpose/Twitter/contents/code/main.js
+
+# https://bugs.kde.org/show_bug.cgi?id=387027
 shlib-without-versioned-soname usr/lib/*/libReviewboardHelpers.so libReviewboardHelpers.so
+# xenial
 postinst-must-call-ldconfig usr/lib/*/libReviewboardHelpers.so
-libkf5purpose-bin: package-name-doesnt-match-sonames libPhabricatorHelpers libReviewboardHelpers
-libkf5purpose-bin: shlib-without-versioned-soname usr/lib/*/libPhabricatorHelpers.so libPhabricatorHelpers.so
+# bionic
+package-must-activate-ldconfig-trigger usr/lib/*/libReviewboardHelpers.so
