@@ -1,5 +1,5 @@
-usr/lib/*/libPhabricatorHelpers.so
-usr/lib/*/libReviewboardHelpers.so
+usr/lib/*/libPhabricatorHelpers.so.5*
+usr/lib/*/libReviewboardHelpers.so.5*
 usr/lib/*/libexec/kf5/purposeprocess
 usr/lib/*/qt5/plugins/purpose/
 usr/share/accounts/services/kde/google-youtube.service
