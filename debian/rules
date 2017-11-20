@@ -8,4 +8,4 @@ override_dh_auto_test:
 	:
 
 override_dh_makeshlibs:
-	$(overridden_command) -Xusr/lib/$(DEB_HOST_GNU_TYPE)/qt5/plugins/purpose/ -Xusr/lib/$(DEB_HOST_GNU_TYPE)/libReviewboardHelpers.so
+	$(overridden_command) -Xusr/lib/$(DEB_HOST_GNU_TYPE)/qt5/plugins/purpose/
