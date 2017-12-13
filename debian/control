@@ -67,7 +67,7 @@ Depends: qml-module-org-kde-kquickcontrolsaddons,
          qml-module-ubuntu-onlineaccounts,
          ${misc:Depends},
          ${shlibs:Depends}
-Recommends: kdeconnect, nodejs | nodejs-legacy
+Recommends: kdeconnect, nodejs | nodejs-legacy, kdeconnect
 Breaks: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
 Replaces: libkf5purpose5 (<< ${source:Version}~ciBuild), kamoso (<< 3.2.1~)
 Description: abstraction to provide and leverage actions of a specific kind, runtime
