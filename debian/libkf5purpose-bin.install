@@ -1,6 +1,7 @@
 usr/lib/*/libPhabricatorHelpers.so*
 usr/lib/*/libReviewboardHelpers.so*
 usr/lib/*/libexec/kf5/purposeprocess
+usr/lib/*/qt5/plugins/kf5/purpose/
 usr/share/accounts/services/kde/google-youtube.service
 usr/share/accounts/services/kde/nextcloud-upload.service
 usr/share/accounts/services/kde/twitter-microblog.service
